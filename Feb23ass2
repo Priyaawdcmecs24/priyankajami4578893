@@ -1,0 +1,8 @@
+list=[2, 3,4,5];     
+print("Original list: ");    
+for i in range(0, len(list)):    
+    print(list[i]),     
+print("list in reverse order: ");    
+   
+for i in range(len(list)-1, -1, -1):     
+    print(list[i]),
