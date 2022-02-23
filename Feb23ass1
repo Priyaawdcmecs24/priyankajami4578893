@@ -1,0 +1,8 @@
+numberlist=[]
+num=int(input('enter number:'))
+for i in range(1, num+1):
+    value=int(input('plese enter the %d ele:'%i))
+    numberlist. append(value)
+
+print('small',min(numberlist))
+print('large',max(numberlist))
